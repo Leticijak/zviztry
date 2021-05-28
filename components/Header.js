@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { FaBars, FaFacebook, FaInstagram, FaTimes } from 'react-icons/fa'
 import { createRef } from 'react'
+import styles from '../styles/Header.module.css'
 
 export default function Header() {
   let navi = createRef()
@@ -24,7 +25,7 @@ export default function Header() {
     <>
       <div classNameName='container-fluid topz'>
         <button classNameName='navi-btn openz-btn' onClick={myClick}>
-          <FaBars />
+          <FaBars className={styles.icons} />
         </button>
       </div>
 
@@ -32,7 +33,7 @@ export default function Header() {
         <div ref={navig} className='navi navi-green'>
           <div ref={naviw} className='navi navi-white'>
             <button onClick={closeClick} className='navi-btn close-btn'>
-              <FaTimes />
+              <FaTimes className={styles.close} />
             </button>
             <img
               src='/logo2.png'

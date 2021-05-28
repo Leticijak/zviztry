@@ -41,8 +41,8 @@ p {
 .openz-btn {
   border: none;
   position: fixed;
-  top: 15px;
-  left: 15px;
+  top: 35px;
+  left: 35px;
 }
 
 /* NAVIGATION */
@@ -316,11 +316,7 @@ footer p {
   padding: 20px;
   width: 120px;
 }
-.contacts h1 {
-  font-family: 'Poppins', sans-serif;
 
-  letter-spacing: 2px;
-}
 .top-logo {
   position: absolute;
   top: 60px;

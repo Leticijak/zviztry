@@ -1,0 +1,18 @@
+.icons {
+  border: none;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+}
+.icons:focus {
+  outline: none;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.close:focus {
+  outline: none;
+}
