@@ -228,7 +228,8 @@ form button {
   padding: 10px 60px;
   border: none;
 }
-.jumbo h1 {
+.jumbotron p {
+  padding-top: 80px;
   font-family: 'Merriweather', serif;
 }
 
@@ -236,6 +237,7 @@ form button {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
     url(/brazil.webp);
   background-size: cover;
+  min-height: 200px;
 }
 
 /* EDITS */
@@ -292,24 +294,6 @@ footer p {
 }
 
 /* card */
-
-.card {
-  width: 22rem;
-  border: none;
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
-}
-
-.dpart {
-  padding: 3rem 0;
-  background-color: slategrey;
-}
-.card {
-  font-family: 'Merriweather', serif;
-}
-
-.card h2 {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 .green-link {
   font-family: 'Merriweather', serif;
