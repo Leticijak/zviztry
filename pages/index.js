@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-import { FaBeer } from 'react-icons/fa'
 
 import Layout from '../components/Layout'
 
@@ -18,54 +17,202 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <h1>THIS IS HOME PAGE</h1>
+        <div class='container-fluid main-cont mt-5'>
+          <div class='row align-items-center my-5'>
+            <div class='col-6'>
+              <div class='text-center'>
+                <img
+                  src='/hdd3.png'
+                  alt='Hard disk drive mechanism'
+                  id='imgz'
+                  class='img-fluid'
+                  width='500px'
+                />
+              </div>
+            </div>
+            <div class='col align-self-center pushdown'>
+              <h1 class='mt-5'>Welcome to</h1>
+              <h2 id='compname' class='display-4 my-3'>
+                <span>CHIA</span> <span>BUY</span> <span>PLOTS</span>
+              </h2>
+              <p class='lead my-3'>Do you want to farm on Chia Network ?</p>
+              <p class='lead my-3'>Ready to jump-start with 100+ plots ?</p>
+              <p class='lead my-3'>
+                Are you in a need to add more plots to your existing chia farm ?
+              </p>
+              <div class='my-5'>
+                <a href='#pitch' id='lan-btn' class='btn btn-success btn-lg'>
+                  Learn more
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='jumbotron' alt='green shamrock, credits Brazil_Topno'>
+          <div className='text-center'>
+            <p className='lead'>
+              Let your farm bloom and get ready to collect rewards. Speed up
+              your harvest time and enjoy the flavor of freshly picked XCH
+              leaves.
+            </p>
+          </div>
+        </div>
 
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
-          aut eos eaque ipsa eum reiciendis corrupti corporis dolorem voluptas
-          possimus aliquid veniam magnam tenetur veritatis beatae, nam, nihil
-          aperiam illum. Atque quia error voluptate voluptatem vel laboriosam
-          necessitatibus voluptas omnis. Perferendis eaque maiores cupiditate
-          similique atque delectus deleniti, unde autem officiis, facilis libero
-          asperiores, dolorum ad voluptate. Neque sit cumque nobis voluptatum
-          ducimus necessitatibus quod distinctio nostrum id voluptatem sunt
-          debitis repudiandae soluta, deserunt vitae porro natus voluptate,
-          tempora est asperiores officia non vel possimus? Quia obcaecati
-          cupiditate delectus deleniti, quae eius nesciunt, repudiandae cum
-          voluptatum consectetur dicta sapiente omnis?
-        </p>
-        <h3>
-          <FaBeer />
-        </h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
-          aut eos eaque ipsa eum reiciendis corrupti corporis dolorem voluptas
-          possimus aliquid veniam magnam tenetur veritatis beatae, nam, nihil
-          aperiam illum. Atque quia error voluptate voluptatem vel laboriosam
-          necessitatibus voluptas omnis. Perferendis eaque maiores cupiditate
-          similique atque delectus deleniti, unde autem officiis, facilis libero
-          asperiores, dolorum ad voluptate. Neque sit cumque nobis voluptatum
-          ducimus necessitatibus quod distinctio nostrum id voluptatem sunt
-          debitis repudiandae soluta, deserunt vitae porro natus voluptate,
-          tempora est asperiores officia non vel possimus? Quia obcaecati
-          cupiditate delectus deleniti, quae eius nesciunt, repudiandae cum
-          voluptatum consectetur dicta sapiente omnis?
-        </p>
+        <section id='pitch'>
+          <div className='container my-5'>
+            <p className='lead'>
+              With the computing power that we have, we can generate 110 plots
+              per day. Our current stock allows us to set for sale extra plots
+              that we have in circulation. All plots that are available for sale
+              are k-32 size.
+            </p>
+            <div className='container my-3'>
+              <div className='row justify-content-md-center'>
+                <div className='card'>
+                  <img
+                    className='card-img-top'
+                    src='/yachi.webp'
+                    alt='Chia network logo, green chia leaf on dark-green background'
+                  />
+                  <div className=''>
+                    <div className='card-body'>
+                      <h5 className='card-title'>PLOTS INFO</h5>
+                      <h2 className='card-text'>K-32</h2>
+                    </div>
+                    <ul className='list-group list-group-flush'>
+                      <li className='list-group-item'>Size: 101.3GB</li>
+                      <li className='list-group-item'>Exp. date: 2026</li>
+                      <li className='list-group-item'>Stock: 350 plots</li>
+                      <li className='list-group-item' id='money'>
+                        Price: <strong> €3</strong> or <strong>$3.66</strong>
+                      </li>
+                    </ul>
+                    <div className='card-body'>
+                      <a href='/contact.html' className='btn btn-success'>
+                        Get A Quote
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p className='lead'>
+              We are purposely not allowing direct purchase on the page because
+              we want to make sure that our customers are well informed and
+              familiar with how chia-network works and the technology behind it.
+            </p>
+            <p className='text-center'>
+              The only reason why we are listing plots for sale is due to our
+              shortage of storage space
+            </p>
+          </div>
+        </section>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
 
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
-          aut eos eaque ipsa eum reiciendis corrupti corporis dolorem voluptas
-          possimus aliquid veniam magnam tenetur veritatis beatae, nam, nihil
-          aperiam illum. Atque quia error voluptate voluptatem vel laboriosam
-          necessitatibus voluptas omnis. Perferendis eaque maiores cupiditate
-          similique atque delectus deleniti, unde autem officiis, facilis libero
-          asperiores, dolorum ad voluptate. Neque sit cumque nobis voluptatum
-          ducimus necessitatibus quod distinctio nostrum id voluptatem sunt
-          debitis repudiandae soluta, deserunt vitae porro natus voluptate,
-          tempora est asperiores officia non vel possimus? Quia obcaecati
-          cupiditate delectus deleniti, quae eius nesciunt, repudiandae cum
-          voluptatum consectetur dicta sapiente omnis?
-        </p>
+        <div className='jumbotron' alt='green shamrock, credits Brazil_Topno'>
+          <div className='text-center'>
+            <p className='lead'>
+              Triple your chances to be awarded with XCH coins. Get your new
+              plots today!
+            </p>
+          </div>
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div className='container-fluid'>
+          <div className='row'>
+            <div className='col-lg-6 col-md-12 col-sm-12'>
+              <div className='container'>
+                <div className='text-center my-3'>
+                  <img
+                    src='/rocket3.webp'
+                    alt='Space  shuttle lauch during daytime'
+                    className='img-fluid'
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-6 col-md-12 col-sm-12'>
+              <div className='container' id='article1'>
+                <div className='text-center'>
+                  <h3 className='mt-4'>GET READY TO START</h3>
+
+                  <p className='lead mt-5'>
+                    The way to get started and be ahead of the competition with
+                    plot count is a huge advantage. Save valuable plotting time
+                    and start farming.
+                    <br />
+                    <br />
+                    With these tactics, you are saving tons of time and
+                    increasing your odds to farm rewards.
+                    <br />
+                    <br />
+                    Total Netspace is growing out of proportion due to Chinese
+                    farmers getting involved. At the time of this writing,
+                    Netspace is over 4.2 <strong>EiB</strong> when calculated to
+                    terabytes we are getting the sum of 4.200.000{' '}
+                    <strong>TiB</strong>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <div className='container'>
+            <div className='my-5' id='article2'>
+              <div className='text-center'>
+                <h3>About CHIA</h3>
+                <br />
+                <p className='lead my-3'>
+                  CHIA_NETWORK is a serious contender for the top 20
+                  cryptocurrencies of the future.
+                  <br />
+                  <br />
+                  Founded by Bram Cohen inventor of BitTorrent, one of the best
+                  network engineers of our age. Stacked and armed with an
+                  experienced team behind him they have serious intentions to
+                  become the most-spread cryptocurrencies worldwide and replace
+                  the spot Bitcoin. Chia Network is dedicated to building a
+                  better blockchain and smart transaction and provides a
+                  decentralized platform that is more efficient, and more
+                  secure.
+                  <br />
+                  <br />
+                  Its cost efficiency, power usage, and proof of space and time
+                  are getting more attention from big investors and
+                  crypto-enthusiasts. Chia network green money for the future.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='container'>
+          <div className='text-center my-5'>
+            <a
+              title='Chia Network official webpage'
+              alt='Chia Network, official website'
+              class='green-link'
+              href='https://www.chia.net'
+              target='_blank'
+            >
+              Visit Chia's Official webpage
+            </a>
+          </div>
+        </div>
       </Layout>
     </div>
   )
