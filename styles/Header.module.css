@@ -16,3 +16,8 @@
 .close:focus {
   outline: none;
 }
+.links {
+  margin: 20px;
+  font-size: 33px;
+  color: green;
+}

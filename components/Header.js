@@ -62,7 +62,7 @@ export default function Header() {
                   alt='Link to instagram account'
                   target='_blank'
                 >
-                  <FaInstagram />
+                  <FaInstagram className={styles.links} />
                 </a>
                 <a
                   title='Facebook link'
@@ -71,7 +71,7 @@ export default function Header() {
                   alt='Link to facebook account'
                   target='_blank'
                 >
-                  <FaFacebook />
+                  <FaFacebook className={styles.links} />
                 </a>
               </div>
             </div>

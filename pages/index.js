@@ -51,7 +51,7 @@ export default function Home() {
         </div>
         <div className='jumbotron' alt='green shamrock, credits Brazil_Topno'>
           <div className='text-center'>
-            <p className='lead'>
+            <p className='lead py-5'>
               Let your farm bloom and get ready to collect rewards. Speed up
               your harvest time and enjoy the flavor of freshly picked XCH
               leaves.
@@ -71,6 +71,7 @@ export default function Home() {
               <div className='row justify-content-md-center'>
                 <div className={styles.cardz}>
                   <Image
+                    className='card-img-top'
                     width={500}
                     height={300}
                     src='/yachi.webp'
@@ -117,7 +118,7 @@ export default function Home() {
 
         <div className='jumbotron' alt='green shamrock, credits Brazil_Topno'>
           <div className='text-center'>
-            <p className='lead'>
+            <p className='lead py-5'>
               Triple your chances to be awarded with XCH coins. Get your new
               plots today!
             </p>

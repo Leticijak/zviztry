@@ -1,0 +1,10 @@
+.links {
+  margin: 20px;
+  font-size: 33px;
+  color: green;
+  transition: all 0.3s ease-in-out;
+}
+
+.links:hover {
+  color: rgb(87, 207, 87);
+}
