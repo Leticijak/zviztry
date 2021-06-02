@@ -18,31 +18,35 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <div class='container-fluid main-cont mt-5'>
-          <div class='row align-items-center my-5'>
-            <div class='col-6'>
-              <div class='text-center'>
+        <div className='container-fluid main-cont mt-5'>
+          <div className='row align-items-center my-5'>
+            <div className='col-6'>
+              <div className='text-center'>
                 <img
                   src='/hdd3.png'
                   alt='Hard disk drive mechanism'
                   id='imgz'
-                  class='img-fluid'
+                  className='img-fluid'
                   width='500px'
                 />
               </div>
             </div>
-            <div class='col align-self-center pushdown'>
-              <h1 class='mt-5'>Welcome to</h1>
-              <h2 id='compname' class='display-4 my-3'>
+            <div className='col align-self-center pushdown'>
+              <h1 className='mt-5'>Welcome to</h1>
+              <h2 id='compname' className='display-4 my-3'>
                 <span>CHIA</span> <span>BUY</span> <span>PLOTS</span>
               </h2>
-              <p class='lead my-3'>Do you want to farm on Chia Network ?</p>
-              <p class='lead my-3'>Ready to jump-start with 100+ plots ?</p>
-              <p class='lead my-3'>
+              <p className='lead my-3'>Do you want to farm on Chia Network ?</p>
+              <p className='lead my-3'>Ready to jump-start with 100+ plots ?</p>
+              <p className='lead my-3'>
                 Are you in a need to add more plots to your existing chia farm ?
               </p>
-              <div class='my-5'>
-                <a href='#pitch' id='lan-btn' class='btn btn-success btn-lg'>
+              <div className='my-5'>
+                <a
+                  href='#pitch'
+                  id='lan-btn'
+                  className='btn btn-success btn-lg'
+                >
                   Learn more
                 </a>
               </div>
@@ -71,7 +75,6 @@ export default function Home() {
               <div className='row justify-content-md-center'>
                 <div className={styles.cardz}>
                   <Image
-                    className='card-img-top'
                     width={500}
                     height={300}
                     src='/yachi.webp'
@@ -91,7 +94,11 @@ export default function Home() {
                       </li>
                     </ul>
                     <div className='card-body'>
-                      <a href='/contact' className='btn btn-success'>
+                      <a
+                        href='/contact'
+                        className='btn  btn-success'
+                        title='Get a quote'
+                      >
                         Get A Quote
                       </a>
                     </div>
@@ -210,7 +217,7 @@ export default function Home() {
             <a
               title='Chia Network official webpage'
               alt='Chia Network, official website'
-              class='green-link'
+              className='green-link'
               href='https://www.chia.net'
               target='_blank'
             >

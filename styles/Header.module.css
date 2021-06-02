@@ -1,8 +1,11 @@
 .icons {
   border: none;
   position: fixed;
-  top: 15px;
-  left: 15px;
+  top: 25px;
+  left: 35px;
+  color: rgb(31, 138, 31);
+  font-size: 28px;
+  text-shadow: 3px 3px 13px black;
 }
 .icons:focus {
   outline: none;
@@ -12,6 +15,8 @@
   position: absolute;
   top: 15px;
   right: 15px;
+  color: rgb(3, 48, 3);
+  opacity: 1;
 }
 .close:focus {
   outline: none;

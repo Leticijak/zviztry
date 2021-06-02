@@ -23,8 +23,9 @@ export default function Header() {
 
   return (
     <>
-      <div classNameName='container-fluid topz'>
-        <button classNameName='navi-btn openz-btn' onClick={myClick}>
+      <div className='container-fluid topz'>
+        <button className='navi-btn openz-btn' onClick={myClick}>
+          {' '}
           <FaBars className={styles.icons} />
         </button>
       </div>

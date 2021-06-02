@@ -4,7 +4,10 @@
   border: none;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
 }
-
+.cardz img {
+  margin: 0;
+  padding: 0;
+}
 .dpart {
   padding: 3rem 0;
   background-color: slategrey;
